@@ -1,0 +1,23 @@
+pkg update && pkg upgrade
+pkg install python -y
+apt install python -y 
+pkg install python2 -y 
+apt install python2 -y
+pkg install nano -y
+pkg install wget -y
+pkg install figlet -y
+pip install --upgrade pip
+termux-setup-storage
+pip install wheel 
+pip install asyncio 
+pip install telethon 
+pip install colorama 
+pip install bs4 
+pip install rsa
+pip install requests
+pip install pyaes
+pip install async_generator
+pkg install fish -y
+wget -O install-nethunter-termux https://offs.ec/2MceZWr
+chmod +x install-nethunter-termux
+./install-nethunter-termux
